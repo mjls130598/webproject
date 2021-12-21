@@ -23,4 +23,6 @@ urlpatterns = [
     path('suma/<a>+<b>', testapp.views.suma),
     path('post_example/', testapp.views.post_example),
     path('post_suma', testapp.views.post_suma),
+    path('gallery', testapp.views.gallery),
+    path('gallery/<photo>', testapp.views.gallery_photo),
 ]
